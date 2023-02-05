@@ -6,3 +6,8 @@ class CantGetCoordinates(Exception):
 class ApiServiceError(Exception):
     """Program can't get weather"""
     pass
+
+
+class CantRecordWeather(Exception):
+    """Program can't record the weather in the history"""
+    pass
